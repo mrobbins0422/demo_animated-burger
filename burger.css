@@ -1,0 +1,77 @@
+/*  My Custom Styles  */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+/* Body
+----------------------------------------------------------------------------- */
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+body, p, input, select, textarea {
+  font-family: "Roboto", sans-serif;
+  background: rgb(216, 213, 213);
+  color: #333;
+}
+/* nav new
+----------------------------------------------------------------------------- */
+.navbar-toggle {
+/*     position: absolute;
+    top: 20px;
+    right: 25px; */
+    z-index: 9999;
+    cursor: pointer;
+    width: auto;
+}
+
+/* burger
+---------------------------------------------------------------------------- */
+.burger {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+	display: unset;
+	cursor: pointer;	
+}
+.burger div {
+	width: 25px;
+	height: 3px;
+	background-color: rgb(226, 226, 226);
+  background-color: rgb(3, 3, 3);
+	margin: 5px;
+	transition: all 0.3s ease;
+}
+
+.toggle .line1 {
+	transform: rotate(-45deg) translate(-5px, 6px);
+	background-color: black;
+}
+.toggle .line2 {
+	opacity: 0;
+	background-color: black;
+}
+.toggle .line3 {
+	transform: rotate(45deg) translate(-5px, -6px);
+	background-color: black;
+}
+
+/* end burger
+----------------------------------------------------------------------------- */
+
