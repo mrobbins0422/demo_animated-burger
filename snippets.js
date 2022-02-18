@@ -1,4 +1,4 @@
-console.log('javascript file has loaded');
+/* console.log('javascript file has loaded'); */
 
 /* var burgerstate = document.querySelector(".burger");
 console.log("the burgerstate query variable is: ", burgerstate); 
@@ -38,9 +38,8 @@ console.log("Eureka! This returns what I want!"); */
     console.log(currentstate.dataset.burgerState);
     console.log(document.querySelector("[data-burger-state]"));
   } 
-
 }) */
 
-/* let value = document.querySelector("[data-burger-state]").getAttribute("data-burger-state");
-console.log("the attribute of burgerState is: ", value); */
+let value = document.querySelector("[data-burger-state]").getAttribute("data-burger-state");
+console.log("the attribute of burgerState is: ", value);
 

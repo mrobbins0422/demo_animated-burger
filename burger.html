@@ -6,16 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hamburger</title>
   <link rel="stylesheet" href="burger.css">
-  <script src="burger.js"></script>
+  <script src="burger.js" defer></script>
 </head>
 <body>
-  <main>
-    <h1>Basic HTML5, CSS3, &amp; JavaScript Hamburger Icon</h1>
-    <div class="burger navbar-toggle" id="js-navbar-toggle">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
+  <main class="wrapper">
+    <section class="card">
+      <h1>Basic HTML5, CSS3, &amp; JavaScript Hamburger Icon</h1>
+      <div class="burger" id="js-toggle" data-burger-state="menu-off">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </section>
   </main>
 </body>
 </html>
+
