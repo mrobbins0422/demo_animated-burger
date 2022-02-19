@@ -5,7 +5,14 @@ Burger animates to an 'X' when selected.
 Can be used to trigger menu slides.
 Totally scalable and stylable with CSS.
 
-## 2022-0216 - I'm still experimenting with this code!
+# The Goal
+
+To study the use of HTML data attributes in Javascript.
+When I was first introduced to data attributes I thought they would be very useful in animating a hamburger menu.
+Rather than toggling classes in CSS with Javascript I want to toggle the data attributes.
+A side benifit is the data attribute can be also be styled with CSS.
+
+## 2022-0219 - I'm still experimenting with this code!
 
 I'm refactoring the HTML IDs to data attributes and 
 experimenting with the Javascript code that triggers 
