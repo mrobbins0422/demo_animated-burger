@@ -1,5 +1,23 @@
 console.log('javascript file has loaded');
 
+/* var trigger = document.getElementById("js-toggle");
+console.log("trigger= ", trigger);
+
+var burgerstate = document.querySelector(".burger");
+console.log("the burgerstate query variable is: ", burgerstate); */
+
+var burgerstatus = document.querySelector("[data-burger-state]");
+console.log("the burgerstatus data set variable is: ", burgerstatus);
+
+var status = burgerstatus.dataset.burgerState;
+burgerstatus.dataset.burgerState = 'menu-on';
+
+var burgerstatus = document.querySelector("[data-burger-state]");
+console.log("the burgerstatus data set variable is: ", burgerstatus);
+
+
+
+
 /* var burgerstate = document.querySelector(".burger");
 console.log("the burgerstate query variable is: ", burgerstate); 
 console.log("a querySelector on element class name") */
