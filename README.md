@@ -22,3 +22,17 @@ Currently, I'm toggling classes but I want to try
 using data attributes true/false to trigger the event.
 This way when I need to trigger multiple events (ie.
 for screen readers) I can do so easier and cleaner.
+
+## Credits
+
+The video that got me interested in data attributes:
+
+[How To Create Advanced CSS Dropdown Menus](https://www.youtube.com/watch?v=S-VeYcOCFZw)
+
+I learned a lot about using data attributes from the following links:
+
+[How You Can Use HTML5 Custom Data Attributes and Why](https://www.sitepoint.com/how-why-use-html5-custom-data-attributes/)
+
+[Why You Shouldn't Use Class Selectors In JavaScript](https://blog.webdevsimplified.com/2019-10/do-not-use-class-selectors-in-javascript/)
+
+[Data Attributes In JavaScript](https://blog.webdevsimplified.com/2020-10/javascript-data-attributes/)

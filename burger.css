@@ -84,6 +84,14 @@ h1 {
 	background-color: black;
 }
 
+/* div[data-burger-state='menu-off'] {
+  background-color: red;
+} */
+div[data-burger-state='menu-on'] {
+  background-color: initial;
+  background-color: red;
+}
+
 /* end burger
 ----------------------------------------------------------------------------- */
 
