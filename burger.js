@@ -16,15 +16,15 @@ console.log("the burgerstate query variable is: ", burgerstate);
 
 /* using data attribute selector */
 
-var burgerstatus = document.querySelector("[data-burger-state]");
-console.log("the burgerstatus data set variable is: ", burgerstatus);
+/* var burgerstatus = document.querySelector("[data-burger-state]");
+console.log("the burgerstatus data set variable is: ", burgerstatus); */
 
-var status = burgerstatus.dataset.burgerState;
+/* var status = burgerstatus.dataset.burgerState;
 burgerstatus.dataset.burgerState = 'menu-on';
-burgerstatus.dataset.burgerState = "menu-off";
+burgerstatus.dataset.burgerState = "menu-off"; */
 
-var burgerstatus = document.querySelector("[data-burger-state]");
-console.log("the burgerstatus data set variable is: ", burgerstatus);
+/* var burgerstatus = document.querySelector("[data-burger-state]");
+console.log("the burgerstatus data set variable is: ", burgerstatus); */
 
 
 /* Using getAttribute and setAttribute */
@@ -38,8 +38,21 @@ A simpler method of accessing data attributes is with the help of the dataset pr
 
 var burgerstatus = document.querySelector("[data-burger-state]");
 
-var status = burgerstatus.dataset.burgerState;
-burgerstatus.dataset.burgerState = "menu-test";
+/* var status = burgerstatus.dataset.burgerState;
+burgerstatus.dataset.burgerState = "menu-test"; */
 console.log("the burgerstatus data set variable is: ", burgerstatus);
 
+burgerstatus.addEventListener("click", myFunction);
 
+function myFunction() {
+  var getstatus = burgerstatus.getAttribute("data-burger-state");
+
+  console.log(burgerstatus);
+/*   console.log(var); */
+}
+
+/* if (condition) {
+  //code
+} else {
+  //block of code
+} */
