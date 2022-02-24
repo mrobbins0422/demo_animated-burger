@@ -41,8 +41,10 @@ main.wrapper {
   min-height: 30vh;
   background-color: #99b7cf;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
   padding: 1rem;
   border: 1px solid green;
   border-radius: 0.5rem;
@@ -69,16 +71,34 @@ h1 {
 	transition: all 0.3s ease;
 }
 
-div[data-burger-state='menu-on'] .line1 {
+div[aria-expanded='true'] .line1 {
 	transform: rotate(-45deg) translate(-5px, 6px);
 }
-div[data-burger-state='menu-on'] .line2 {
+div[aria-expanded='true'] .line2 {
 	opacity: 0;
 }
-div[data-burger-state='menu-on'] .line3 {
+div[aria-expanded='true'] .line3 {
 	transform: rotate(45deg) translate(-5px, -6px);
 }
 
 /* end burger
+----------------------------------------------------------------------------- */
+/* button
+----------------------------------------------------------------------------- */
+button {
+  min-width: 45px;
+  height: 45px;
+  background-color: inherit;
+}
+
+button[aria-expanded="true"] {
+	background-color: red;
+}
+
+
+button[aria-expanded="true"] div.line1 {
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+/* end button
 ----------------------------------------------------------------------------- */
 

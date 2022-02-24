@@ -1,8 +1,8 @@
-/* console.log('javascript file has loaded'); */
+console.log('javascript file has loaded');
 
 /* using data attribute selectors */
 
-var element = document.querySelector("[data-burger-state]");
+/* var element = document.querySelector("[data-burger-state]");
 console.log("the element is: ", element);
 
 var burgerdata = element.dataset.burgerState;
@@ -20,4 +20,4 @@ element.addEventListener("click", function() {
 
 console.log(element);
 console.log(burgerdata);
-
+ */
