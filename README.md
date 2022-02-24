@@ -18,3 +18,4 @@ I'm refactoring the HTML so the burger is part of a button and semantically corr
 Kudos to Grace and all the folks at [Frontend Mentor](https://www.frontendmentor.io/)
 for taking the time to help, teach, and inspire.
 
+[How to toggle aria-expanded](http://www.davidmacd.com/blog/toggle-aria-expanded-javascript.html)

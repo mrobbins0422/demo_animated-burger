@@ -55,11 +55,20 @@ h1 {
   font-weight: 400;
   margin-right: 2rem;
 }
-/* burger
----------------------------------------------------------------------------- */
+/* button
+----------------------------------------------------------------------------- */
+button {
+  min-width: 45px;
+  height: 45px;
+  background-color: inherit;
+}
+
+/* burger inside the button
+------------------------------------ */
 .burger {
 	display: unset;
-	cursor: pointer;	
+/* 	cursor: pointer; */	
+  pointer-events: none;
   width: fit-content;
   margin: 0 auto;
 }
@@ -70,35 +79,19 @@ h1 {
 	margin: 5px auto;
 	transition: all 0.3s ease;
 }
+/* end burger
+------------------------------------ */
 
-div[aria-expanded='true'] .line1 {
+button[aria-expanded='true'] .line1 {
 	transform: rotate(-45deg) translate(-5px, 6px);
 }
-div[aria-expanded='true'] .line2 {
+button[aria-expanded='true'] .line2 {
 	opacity: 0;
 }
-div[aria-expanded='true'] .line3 {
+button[aria-expanded='true'] .line3 {
 	transform: rotate(45deg) translate(-5px, -6px);
 }
 
-/* end burger
------------------------------------------------------------------------------ */
-/* button
------------------------------------------------------------------------------ */
-button {
-  min-width: 45px;
-  height: 45px;
-  background-color: inherit;
-}
-
-button[aria-expanded="true"] {
-	background-color: red;
-}
-
-
-button[aria-expanded="true"] div.line1 {
-	transform: rotate(-45deg) translate(-5px, 6px);
-}
 /* end button
 ----------------------------------------------------------------------------- */
 
