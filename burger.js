@@ -1,7 +1,7 @@
 console.log('javascript file has loaded');
 
-const toggle = document.querySelector('[aria-expanded]');
-console.log(toggle);
+const toggle = document.querySelector(".js-burger-toggle");
+/* console.log(toggle); */
 
 toggle.addEventListener('click', (e) => {
   let pressed = e.target.getAttribute('aria-expanded') === 'true';

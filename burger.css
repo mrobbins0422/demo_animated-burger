@@ -66,13 +66,11 @@ button {
 /* burger inside the button
 ------------------------------------ */
 .burger {
-	display: unset;
-/* 	cursor: pointer; */	
   pointer-events: none;
-  width: fit-content;
   margin: 0 auto;
 }
-.burger div {
+span.burger {
+  display: block;
 	width: 25px;
 	height: 3px;
   background-color: rgb(3, 3, 3);
