@@ -6,6 +6,6 @@ const toggle = document.querySelector(".js-burger-toggle");
 toggle.addEventListener('click', (e) => {
   let pressed = e.target.getAttribute('aria-expanded') === 'true';
   e.target.setAttribute('aria-expanded', String(!pressed));
-  console.log(document.querySelector("[aria-expanded]"));;
+//  console.log(document.querySelector("[aria-expanded]"));;
 });
 
