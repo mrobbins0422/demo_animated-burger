@@ -1,4 +1,4 @@
-# demo_responsive_burger
+# demo_animated_burger
 
 basic animated hamburger icon with no graphics
 
